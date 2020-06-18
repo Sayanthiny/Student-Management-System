@@ -26,8 +26,8 @@
           <div class="row">
             <section>@include("studentslist")</section>
             <section class="col">
-
-            <form>
+            <form action="{{ url('/store') }}" method="post">
+           
                   <div class="form-group">
                     <label>CNE</label>
                     <input type="text" class="form-control" name="cne" placeholder="enter cne">
@@ -73,7 +73,39 @@
     <div class="container-fluid">
           <div class="row">
             <section>@include("studentslist")</section>
-            <section class="col"></section>
+            <section class="col">
+            <form action="{{ url('/update/'.$student->id) }}" method="post">
+           
+           <div class="form-group">
+             <label>CNE</label>
+             <input value="{{ $student->cne }}" type="text" class="form-control" name="cne" placeholder="enter cne">
+           </div>
+
+           <div class="form-group">
+             <label>First Name</label>
+             <input value="{{ $student->firstName }}" type="text" class="form-control" name="firstName" placeholder="enter the first name">
+           </div>
+
+           <div class="form-group">
+             <label>Second Name</label>
+             <input value="{{ $student->secondName }}" type="text" class="form-control" name="secondName" placeholder="enter the second name">
+           </div>
+
+           <div class="form-group">
+             <label>Age</label>
+             <input value="{{ $student->age }}" type="text" class="form-control" name="age" placeholder="enter the age">
+           </div>
+
+           <div class="form-group">
+             <label>Speciality</label>
+             <input value="{{ $student->speciality }}" type="text" class="form-control" name="speciality" placeholder="enter speciality">
+           </div>
+           <input type="submit" class="btn btn-info" value="Update">
+           <input type="reset" class="btn btn-warning" value="Reset">
+           
+       </form>
+                    
+            </section>
           </div>
       </div>
 
