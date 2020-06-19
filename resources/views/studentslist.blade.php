@@ -1,5 +1,5 @@
 <div class="card mb-3">
-  <img src="https://c8.alamy.com/comp/GDB3DJ/2-kids-girl-and-boy-friends-school-student-studying-in-a-classroom-GDB3DJ.jpg" class="card-img-top" alt="student_image">
+  <img src="https://www.askbts.com//images-content/blog/computers-for-kids.jpg" class="card-img-top" alt="student_image">
   <div class="card-body">
     <h5 class="card-title">List of Students</h5>
     <p class="card-text">you can find here all the informations about students in the system</p>

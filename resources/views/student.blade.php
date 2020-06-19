@@ -39,7 +39,7 @@
             </section>
             <section class="col-md-5">
               <div class="card mb-3">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSp9p1rQyAfYHsMGgSrLp2nf4hCGMFYXgyaERVZr9FEM_45Kx56&usqp=CAU" class="card-img-top" alt="...">
+              <img src="https://bsmedia.business-standard.com/_media/bs/img/article/2020-04/15/full/1586897152-2436.jpg" class="card-img-top" alt="...">
               <div class="card-body">
             <h5 class="card-title">Enter the information about the new student</h5>
             
