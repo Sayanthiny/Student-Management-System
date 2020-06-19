@@ -1,4 +1,10 @@
-<table class="table">
+<div class="card mb-3">
+  <img src="https://c8.alamy.com/comp/GDB3DJ/2-kids-girl-and-boy-friends-school-student-studying-in-a-classroom-GDB3DJ.jpg" class="card-img-top" alt="student_image">
+  <div class="card-body">
+    <h5 class="card-title">List of Students</h5>
+    <p class="card-text">you can find here all the informations about students in the system</p>
+  
+    <table class="table">
 
   <thead class="thead-light">
     <tr>
@@ -19,11 +25,15 @@
             <td>{{ $student->age }}</td>
             <td>{{ $student->speciality }}</td>
             <td>
-                <a href="#" class="btn btn-sm btn-info">Show</a>
                 <a href="{{ url('/edit/'.$student->id) }}" class="btn btn-sm btn-info">Edit</a>
-                <a href="#" class="btn btn-sm btn-danger">Delete</a>
             </td>
         </tr>
     @endforeach
   </tbody>
 </table>
+  
+</div>
+</div>
+
+
+
